@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    background-color: #1e1e1e;
+    color: white;
+    font-family: "Ubuntu", "Segoe UI", sans-serif;
+}
+
+.center {
+    position: absolute;
+    left: 37%;
+    top: 10vh;
+}
+.header {
+    font-size: 70px;
+    border-top: 5px solid #525252;
+    border-bottom: 5px solid #525252;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.header:hover {
+    border-top: 5px solid #848484;
+    border-bottom: 5px solid #848484;
+    color: #848484;
+}
